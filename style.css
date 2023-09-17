@@ -1,0 +1,87 @@
+body{
+    font-family: sans-serif;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+.top{
+    background-color: blueviolet;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+nav h2{
+    padding-top: 8px;
+    padding-left: 10px;
+    font-size: 35px;
+    color: white;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: red;
+}
+//.im{
+//    float: right;
+//}
+.middle h1{
+    padding: 30px;
+    font-size: 65px;
+    color: blueviolet;
+}
+.ne{
+    color: white;
+    text-decoration: none;
+}
+.middle a:hover{
+    color: red;
+}
+.but{
+    color: black;
+    background-color: blueviolet;
+    border-style: none;
+    height: 40px;
+    width: 150px;
+    border-radius: 8px;
+}
+.butu{
+    padding-left: 40px;
+}
+.last{
+    background-color: blueviolet;
+    height: 350px;
+}
+.last h5{
+    color: white;
+    padding: 40px;
+}
+.slider{
+    height: 500px;
+    width: 600px;
+    float: right;
+    background: url("Desert.jpg");
+   
+    animation: slide 5s infinite;
+}
+@keyframes slide{
+    25%{
+        background: url("Desert.jpg");
+    }
+    50%{
+        background: url("Lighthouse.jpg");
+    }
+    75%{
+        background: url("Hydrangeas.jpg");
+    }
+    100%{
+        background: url("Desert.jpg");
+    }
+    }   
